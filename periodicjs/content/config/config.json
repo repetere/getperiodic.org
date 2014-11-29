@@ -1,0 +1,11 @@
+{
+  "sessions": {
+    "enabled": true,
+    "type": "mongo"
+  },
+  "status": "active",
+  "session_secret": "ronmw3h8ani5dn29srb9ibcddq85mi",
+  "cookies": {
+    "cookieParser": "c7jvxjws8jl40a4i1iawdi4ssm6g8pvi"
+  }
+}

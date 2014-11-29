@@ -1,0 +1,28 @@
+{
+	"name": "Periodic Enterprise Content Management",
+	"application":{
+		"port": "8786",
+		"environment": "development"
+	},
+	"cookies":{
+		"cookieParser":"defaultcookiejson"
+	},
+	"sessions":{
+		"enabled":true,
+		"type":"default"
+	},
+  "periodic_cache_settings":{
+    "prevent_clear_data_cache_on_start":false,
+    "prevent_clear_view_cache_on_start":false
+  },
+	"session_secret":"hjoiuu87go9hui",
+	"expressCompression": true,
+	"use_test_extensions_by_environment": false,
+	"templateengine": "ejs",
+	"templatepackage": "ejs",
+	"templatefileextension": "ejs",
+	"crsf": true,
+  "debug": true,
+  "status":"install",
+  "serverfromemail": "periodic@localhost"
+}

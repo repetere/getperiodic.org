@@ -1,0 +1,141 @@
+{
+  "extensions": [
+    {
+      "name": "periodicjs.ext.install",
+      "version": "3.1.2",
+      "periodicCompatibility": "3.1.1",
+      "installed": true,
+      "enabled": false,
+      "date": "2014-11-29T19:00:23.187Z",
+      "periodicConfig": {
+        "periodicCompatibility": "3.1.1",
+        "periodicDependencies": []
+      }
+    },
+    {
+      "name": "periodicjs.ext.default_routes",
+      "version": "3.1.1",
+      "periodicCompatibility": "3.1.1",
+      "installed": true,
+      "enabled": true,
+      "date": "2014-11-29T19:00:21.126Z",
+      "periodicConfig": {
+        "periodicCompatibility": "3.1.1",
+        "periodicDependencies": []
+      }
+    },
+    {
+      "name": "periodicjs.ext.mailer",
+      "version": "3.1.1",
+      "periodicCompatibility": "3.1.1",
+      "installed": true,
+      "enabled": true,
+      "date": "2014-11-29T19:00:21.705Z",
+      "periodicConfig": {
+        "periodicCompatibility": "3.1.1",
+        "periodicDependencies": [],
+        "periodicjs.ext.admin": {
+          "menu": {
+            "Extensions": {
+              "Mailer": "<a href=\"/p-admin/mailer/\">Test Email Settings</a>"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "periodicjs.ext.login",
+      "version": "3.1.2",
+      "periodicCompatibility": "3.1.1",
+      "installed": true,
+      "enabled": true,
+      "date": "2014-11-29T19:00:23.585Z",
+      "periodicConfig": {
+        "periodicCompatibility": "3.1.1",
+        "periodicDependencies": [
+          {
+            "extname": "periodicjs.ext.mailer",
+            "version": "~3.1.1"
+          }
+        ]
+      }
+    },
+    {
+      "name": "periodicjs.ext.user_access_control",
+      "version": "3.1.1",
+      "periodicCompatibility": "3.1.1",
+      "installed": true,
+      "enabled": true,
+      "date": "2014-11-29T19:00:22.318Z",
+      "periodicConfig": {
+        "periodicCompatibility": "3.1.1",
+        "periodicDependencies": [
+          {
+            "extname": "periodicjs.ext.login",
+            "version": "~3.1.1"
+          }
+        ]
+      }
+    },
+    {
+      "name": "periodicjs.ext.scheduled_content",
+      "version": "3.1.1",
+      "periodicCompatibility": "3.1.1",
+      "installed": true,
+      "enabled": true,
+      "date": "2014-11-29T19:00:20.628Z",
+      "periodicConfig": {
+        "periodicCompatibility": "3.1.1",
+        "periodicDependencies": []
+      }
+    },
+    {
+      "name": "periodicjs.ext.admin",
+      "version": "3.1.1",
+      "periodicCompatibility": "3.1.1",
+      "installed": true,
+      "enabled": true,
+      "date": "2014-11-29T19:00:32.986Z",
+      "periodicConfig": {
+        "periodicCompatibility": "3.1.1",
+        "periodicDependencies": [
+          {
+            "extname": "periodicjs.ext.mailer",
+            "version": "~3.1.1"
+          },
+          {
+            "extname": "periodicjs.ext.login",
+            "version": "~3.1.1"
+          },
+          {
+            "extname": "periodicjs.ext.scheduled_content",
+            "version": "~3.1.1"
+          },
+          {
+            "extname": "periodicjs.ext.user_access_control",
+            "version": "~3.1.1"
+          }
+        ]
+      }
+    },
+    {
+      "name": "periodicjs.ext.dbseed",
+      "version": "3.1.1",
+      "periodicCompatibility": "3.1.1",
+      "installed": true,
+      "enabled": true,
+      "date": "2014-11-29T19:00:23.943Z",
+      "periodicConfig": {
+        "periodicCompatibility": "3.1.1",
+        "periodicDependencies": [],
+        "periodicjs.ext.admin": {
+          "menu": {
+            "Extensions": {
+              "seed admin": "<a href=\"/p-admin/dbseed\">DB Seed Import/Export</a>"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

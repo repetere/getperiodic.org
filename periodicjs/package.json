@@ -1,0 +1,166 @@
+{
+  "name": "periodicjs",
+  "description": "Periodic is an application framework built on top of Express and MongoDB designed for data driven, content based web and mobile applications.",
+  "version": "3.1.21",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.31"
+  },
+  "author": {
+    "name": "Yaw Joseph Etse",
+    "email": "yaw.etse@gmail.com",
+    "url": "http://about.me/yawjosephetse"
+  },
+  "contributors": [
+    {
+      "name": "Vishnu Ravi",
+      "email": "hello@vishnu.io",
+      "url": "http://www.vishnu.io"
+    },
+    {
+      "name": "Alan David Garcia",
+      "email": "alandavidgarcia@gmail.com",
+      "url": "http://alangalan.tumblr.com"
+    },
+    {
+      "name": "Ernie Casilla",
+      "email": "ecasilla@icloud.com",
+      "url": "http://www.erniecasilla.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/typesettin/periodicjs.git"
+  },
+  "scripts": {
+    "start": "node index.js --cli --nd --e",
+    "forever": "forever start -o logs/app-out.forever.log -e logs/app-err.forever.log -c nodemon index.js --e",
+    "stop": "forever stop -c nodemon index.js",
+    "deploy": "node index.js --cli --deploy",
+    "test": "mocha -R spec --recursive",
+    "coverage": "mocha -R html-cov --recursive > test/coverage.html",
+    "postinstall": "node scripts/install.js",
+    "deploysync": "node scripts/deploymentsync.js"
+  },
+  "dependencies": {
+    "async": "0.9.0",
+    "bcrypt": "~0.8.0",
+    "body-parser": "1.9.2",
+    "compression": "1.2.0",
+    "connect-flash": "0.1.1",
+    "connect-mongo": "0.4.1",
+    "cookie-parser": "1.3.3",
+    "cron": "1.0.5",
+    "csurf": "1.6.3",
+    "decompress": "2.1.1",
+    "download": "~3.1.2",
+    "ejs": "1.0.0",
+    "express": "^4.10.2",
+    "express-session": "1.9.1",
+    "formidable": "1.0.15",
+    "fs-extra": "0.12.0",
+    "marked": "^0.3.2",
+    "method-override": "2.3.0",
+    "moment": "^2.7.0",
+    "mongoose": "3.8.19",
+    "morgan": "1.5.0",
+    "multer": "0.1.6",
+    "npm": "2.1.8",
+    "optimist": "0.6.1",
+    "passport": "~0.2.0",
+    "periodicjs.core.cache": "3.1.2",
+    "periodicjs.core.controller": "3.1.1",
+    "periodicjs.core.extensions": "3.1.1",
+    "periodicjs.core.mailer": "3.1.1",
+    "periodicjs.core.utilities": "3.1.1",
+    "prompt": "0.2.14",
+    "response-time": "2.2.0",
+    "semver": ">=2.3.0",
+    "serve-favicon": "2.1.6",
+    "string-to-json": "^0.1.0",
+    "superagent": "~0.21.0",
+    "util-extend": "1.0.1",
+    "utils-merge": "1.0.0",
+    "winston": "0.8.3"
+  },
+  "devDependencies": {
+    "browserify": "~6.3.2",
+    "chai": "^1.9.2",
+    "chai-factories": "^0.1.0",
+    "chai-fs": "^0.1.0",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "~3.2.0",
+    "grunt-contrib-copy": "~0.7.0",
+    "grunt-contrib-cssmin": "~0.10.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-less": "~0.11.4",
+    "grunt-contrib-uglify": "~0.6.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-jsbeautifier": "~0.2.7",
+    "grunt-jsdoc": "~0.6.0",
+    "grunt-newer": "~0.7.0",
+    "grunt-simple-mocha": "~0.4.0",
+    "jsdoc": "3.3.0-alpha10",
+    "mocha": "1.9.0",
+    "pow-mongodb-fixtures": "^0.10.0",
+    "supertest": "^0.15.0",
+    "uglify-js": "^2.4.15",
+    "uglifyify": "^2.5.0"
+  },
+  "keywords": [
+    "content management framework",
+    "typeset",
+    "wysiwyg",
+    "ui manager",
+    "CMS",
+    "CDS",
+    "Express",
+    "ExpressJS",
+    "Application Framework",
+    "Micro Framework",
+    "Node CMS",
+    "wordpress",
+    "drupal",
+    "modular",
+    "themes",
+    "Content Delivery System",
+    "Content Management System",
+    "Periodic Decoupled Framework"
+  ],
+  "gitHead": "ec239f4c3466993bc1afddb98fd835840758d827",
+  "bugs": {
+    "url": "https://github.com/typesettin/periodicjs/issues"
+  },
+  "homepage": "https://github.com/typesettin/periodicjs",
+  "_id": "periodicjs@3.1.21",
+  "_shasum": "7cb56a3195236b6f7d8ef887b5652a9737bdb821",
+  "_from": "periodicjs@latest",
+  "_npmVersion": "2.0.0-beta.0",
+  "_npmUser": {
+    "name": "yawetse",
+    "email": "yaw.etse@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "yawetse",
+      "email": "yaw.etse@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "7cb56a3195236b6f7d8ef887b5652a9737bdb821",
+    "tarball": "http://registry.npmjs.org/periodicjs/-/periodicjs-3.1.21.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/periodicjs/-/periodicjs-3.1.21.tgz",
+  "optionalDependencies": {
+    "periodicjs.ext.admin": "^3.1.1",
+    "periodicjs.ext.cache": "^3.1.1",
+    "periodicjs.ext.dbseed": "^3.1.1",
+    "periodicjs.ext.default_routes": "^3.1.1",
+    "periodicjs.ext.install": "^3.1.2",
+    "periodicjs.ext.login": "^3.1.2",
+    "periodicjs.ext.mailer": "^3.1.1",
+    "periodicjs.ext.scheduled_content": "^3.1.1",
+    "periodicjs.ext.user_access_control": "^3.1.1"
+  }
+}
