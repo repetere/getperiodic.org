@@ -288,11 +288,27 @@
 	"buffers":
 	[
 		{
-			"file": "/Users/yawetse/Developer/github/typesettin/getperiodic.org/README.md",
+			"file": "/Users/yawetse/Developer/github/typesettin/getperiodic.org/periodicjs/public/pages/index.html",
 			"settings":
 			{
-				"buffer_size": 132,
+				"buffer_size": 2111,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/yawetse/Developer/github/typesettin/getperiodic.org/periodicjs/content/config/deployment/periodic.nginx.conf",
+			"settings":
+			{
+				"buffer_size": 907,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/yawetse/Developer/github/typesettin/getperiodic.org/periodicjs/content/config/database.js",
+			"settings":
+			{
+				"buffer_size": 437,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -328,10 +344,16 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/yawetse/Developer/github/typesettin/getperiodic.org"
+		"/Users/yawetse/Developer/github/typesettin/getperiodic.org",
+		"/Users/yawetse/Developer/github/typesettin/getperiodic.org/periodicjs/content",
+		"/Users/yawetse/Developer/github/typesettin/getperiodic.org/periodicjs/content/config",
+		"/Users/yawetse/Developer/github/typesettin/getperiodic.org/periodicjs/content/config/deployment",
+		"/Users/yawetse/Developer/github/typesettin/getperiodic.org/periodicjs/public",
+		"/Users/yawetse/Developer/github/typesettin/getperiodic.org/periodicjs/public/pages"
 	],
 	"file_history":
 	[
+		"/Users/yawetse/Developer/github/typesettin/getperiodic.org/README.md",
 		"/Users/yawetse/Developer/github/typesettin/typesettin-style-guide/example/index.html",
 		"/Users/yawetse/Developer/github/typesettin/typesettin-style-guide/resources/js/example_src.js",
 		"/Users/yawetse/Developer/github/typesettin/typesettin-style-guide/Gruntfile.js",
@@ -458,8 +480,7 @@
 		"/Users/yawetse/Developer/test/extwork/periodicjs/node_modules/periodicjs.ext.admin/package.json",
 		"/Users/yawetse/Developer/test/extwork/periodicjs/node_modules/periodicjs.ext.dbseed/package.json",
 		"/Users/yawetse/Developer/test/extwork/periodicjs/node_modules/periodicjs.ext.admin/views/p-admin/compilations/new.ejs",
-		"/Users/yawetse/Developer/test/extwork/periodicjs/node_modules/periodicjs.ext.admin/views/p-admin/compilations/review_revision.ejs",
-		"/Users/yawetse/Developer/test/extwork/periodicjs/content/config/model.js"
+		"/Users/yawetse/Developer/test/extwork/periodicjs/node_modules/periodicjs.ext.admin/views/p-admin/compilations/review_revision.ejs"
 	],
 	"find":
 	{
@@ -692,30 +713,90 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/yawetse/Developer/github/typesettin/getperiodic.org/README.md",
-					"semi_transient": false,
+					"file": "/Users/yawetse/Developer/github/typesettin/getperiodic.org/periodicjs/public/pages/index.html",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 132,
+						"buffer_size": 2111,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								131,
-								76
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/yawetse/Developer/github/typesettin/getperiodic.org/periodicjs/content/config/deployment/periodic.nginx.conf",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 907,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								907,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/yawetse/Developer/github/typesettin/getperiodic.org/periodicjs/content/config/database.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 437,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								264,
+								264
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
